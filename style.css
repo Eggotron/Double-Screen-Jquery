@@ -1,0 +1,109 @@
+	body{
+		margin:0;
+		padding:0;
+		font-family: 'Lato', sans-serif;	
+	}
+	
+	.clear{
+		clear:both;	
+	}
+
+	#left{
+		background: #ecf0f1;
+		width:50%;
+		height:100%;
+		position:absolute;
+		left:0;
+		top:0;
+	}
+	
+	#left h1{
+		font-size:6em;
+		color:#1abc9c;
+		text-align:center;
+		padding-bottom:15px;
+		padding-top:15px;
+	}
+	
+	.line{
+		border-top:5px solid #1abc9c;	
+	}
+	
+	.line2{
+		border-top:5px solid #fff;	
+	}
+	
+	#right{
+		background: #1abc9c;
+		width:50%;
+		height:100%;
+		position:absolute;
+		right:0;
+		top:0;
+	}
+	
+	#right h1{
+		font-size:6em;
+		color:#fff;
+		text-align:center;
+		padding-bottom:15px;
+		padding-top:15px;
+	}
+	
+	#return{
+		background: url(http://www.clker.com/cliparts/c/3/0/7/12456877162087486429Soeb_Plain_Arrow_7.svg.med.png) no-repeat center center;
+		background-size:contain;
+		transform: rotate(180deg);
+		width:50px;
+		height:50px;
+		position:relative;
+		float:right;
+		margin:30px 30px;
+		cursor:pointer;
+	}
+	
+	#return2{
+		background: url(http://www.clker.com/cliparts/c/3/0/7/12456877162087486429Soeb_Plain_Arrow_7.svg.med.png) no-repeat center center;
+		background-size:contain;
+		width:50px;
+		height:50px;
+		position:relative;
+		margin:30px 30px;
+		cursor:pointer;
+	}
+	
+	#leftupper{
+		background: #7f8c8d;
+		height:100%;
+		position:absolute;
+		left:0;
+		top:0;
+		z-index:4;
+	}
+	
+	#leftupper h1{
+		font-size:6em;
+		color:#fff;
+		text-align:center;
+		padding-bottom:15px;
+		padding-top:15px;
+		position:relative;
+	}
+	
+	#rightupper{
+		background: #16a085;
+		height:100%;
+		position:absolute;
+		right:0;
+		top:0;
+		z-index:4;
+	}
+	
+	#rightupper h1{
+		font-size:6em;
+		color:#fff;
+		text-align:center;
+		padding-bottom:15px;
+		padding-top:15px;
+		position:relative;
+	}
